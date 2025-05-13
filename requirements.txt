@@ -1,0 +1,26 @@
+# Core data manipulation and numerical operations
+pandas>=1.3.0,<2.0.0
+numpy>=1.20.0,<2.0.0
+
+# Machine learning and text processing
+scikit-learn>=1.0.0,<1.4.0
+
+# For collaborative filtering (optional, but good to include)
+# surprise is a dedicated library for recommendation systems
+# scikit-surprise>=1.1.1  # Uncomment if you plan to use the 'surprise' library
+
+# For exploratory data analysis and notebooks
+jupyterlab>=3.0.0,<4.0.0
+notebook>=6.0.0,<7.0.0
+matplotlib>=3.4.0,<4.0.0  # For plotting
+seaborn>=0.11.0,<0.13.0    # For enhanced plotting
+
+# For creating a simple web UI (optional)
+streamlit>=1.10.0,<1.30.0 # Uncomment if you plan to use Streamlit
+
+# For interacting with APIs like TMDB (optional)
+# requests>=2.25.0,<3.0.0    # Uncomment if fetching data from APIs like TMDB
+# tmdbv3api>=1.8.0,<2.0.0   # Uncomment if using this specific TMDB wrapper
+
+# Utility for saving/loading Python objects (often better than pickle for scikit-learn models)
+joblib>=1.0.0,<1.4.0
